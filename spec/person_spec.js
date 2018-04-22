@@ -9,6 +9,7 @@ describe('Person', function() {
     expect(newPerson.todaysDate).toEqual(new Date());
     expect(newPerson.birthDate).toEqual(new Date('december 9, 1986'));
     expect(newPerson.ageInYears).toEqual(32);
+    expect(newPerson.lifeExpectency).toEqual(77);
   });
 
 
