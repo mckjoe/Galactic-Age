@@ -21,5 +21,9 @@ class Person {
     return Math.floor(this.ageInYears / .24);
   }
 
+  venusAgeYears() {
+    return Math.floor(this.ageInYears / .62);
+  }
+
 }
 export { Person };
