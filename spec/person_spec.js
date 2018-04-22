@@ -54,5 +54,9 @@ describe('Person', function() {
     expect(newPerson.marsLifeExpectency()).toEqual(23);
   });
 
+  it('should tell a user how long they have left to live on Jupiter', function() {
+    expect(newPerson.jupiterLifeExpectency()).toEqual(3);
+  });
+
 
 });
