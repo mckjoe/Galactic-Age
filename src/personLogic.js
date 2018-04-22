@@ -29,5 +29,9 @@ class Person {
     return Math.floor(this.ageInYears / 1.88);
   }
 
+  jupiterAgeYears() {
+    return Math.floor(this.ageInYears / 11.86);
+  }
+
 }
 export { Person };
