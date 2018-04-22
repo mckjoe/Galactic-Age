@@ -9,5 +9,13 @@ class Person {
   ageInSeconds() {
     return this.ageInYears * 31536000;
   }
+
+  differenceInSeconds() {
+    let startDate = new Date('december 9, 1986').getYear();
+    let endDate = new Date('december 9, 1996').getYear();
+    let yearsDifference = endDate - startDate;
+    return yearsDifference * 31536000;
+  }
+
 }
 export { Person };
