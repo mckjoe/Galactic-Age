@@ -33,5 +33,13 @@ class Person {
     return Math.floor(this.ageInYears / 11.86);
   }
 
+  earthLifeExpectency() {
+    if(this.ageInYears > this.lifeExpectency) {
+      return this.ageInYears - this.lifeExpectency;
+    } else {
+      return this.lifeExpectency - this.ageInYears;
+    }
+  }
+
 }
 export { Person };
