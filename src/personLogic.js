@@ -41,5 +41,15 @@ class Person {
     }
   }
 
+  mercuryLifeExpectency() {
+    let yearRemainder;
+    if(this.ageInYears > this.lifeExpectency) {
+      yearRemainder = this.ageInYears - this.lifeExpectency;
+    } else {
+      yearRemainder = this.lifeExpectency - this.ageInYears;
+    }
+    return Math.floor(yearRemainder / .24);
+  }
+
 }
 export { Person };
