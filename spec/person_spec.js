@@ -38,4 +38,8 @@ describe('Person', function() {
     expect(newPerson.jupiterAgeYears()).toEqual(2);
   });
 
+  it('should tell a user how long they have left to live on earth', function() {
+    expect(newPerson.earthLifeExpectency()).toEqual(45);
+  });
+
 });
