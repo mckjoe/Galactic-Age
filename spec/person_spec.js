@@ -15,6 +15,6 @@ describe('Person', function() {
   });
 
   it('should convert a users age in years to age in seconds', function() {
-    expect(newPerson.ageInSeconds).toEqual(1009152000);
+    expect(newPerson.ageInSeconds()).toEqual(1009152000);
   });
 });
