@@ -50,4 +50,9 @@ describe('Person', function() {
     expect(newPerson.venusLifeExpectency()).toEqual(72);
   });
 
+  it('should tell a user how long they have left to live on Mars', function() {
+    expect(newPerson.marsLifeExpectency()).toEqual(23);
+  });
+
+
 });
