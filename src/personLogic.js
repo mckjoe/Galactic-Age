@@ -17,5 +17,9 @@ class Person {
     return yearsDifference * 31536000;
   }
 
+  mercuryAgeYears() {
+    return Math.floor(this.ageInYears / .24);
+  }
+
 }
 export { Person };
