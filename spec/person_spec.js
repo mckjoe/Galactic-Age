@@ -14,5 +14,7 @@ describe('Person', function() {
     expect(newPerson.lifeExpectency).toEqual(77);
   });
 
-
+  it('should convert a users age in years to age in seconds', function() {
+    expect(newPerson.ageInSeconds).toEqual(1009152000);
+  });
 });
