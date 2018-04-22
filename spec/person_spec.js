@@ -22,4 +22,9 @@ describe('Person', function() {
     expect(newPerson.differenceInSeconds()).toEqual(315360000);
   });
 
+  it('should find a persons age in years on Mercury', function() {
+    expect(newPerson.mercuryAgeYears()).toEqual(133);
+  });
+
+
 });
