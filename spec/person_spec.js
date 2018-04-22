@@ -26,5 +26,8 @@ describe('Person', function() {
     expect(newPerson.mercuryAgeYears()).toEqual(133);
   });
 
+  it('should find a persons age in years on Venus', function() {
+    expect(newPerson.venusAgeYears()).toEqual(51);
+  });
 
 });
