@@ -71,5 +71,15 @@ class Person {
     return Math.floor(yearRemainder / 1.88);
   }
 
+  jupiterLifeExpectency() {
+    let yearRemainder;
+    if(this.ageInYears > this.lifeExpectency) {
+      yearRemainder = this.ageInYears - this.lifeExpectency;
+    } else {
+      yearRemainder = this.lifeExpectency - this.ageInYears;
+    }
+    return Math.floor(yearRemainder / 11.86);
+  }
+
 }
 export { Person };
