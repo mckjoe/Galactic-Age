@@ -19,7 +19,7 @@ describe('Person', function() {
   });
 
   it('should find the difference between two dates in seconds', function() {
-    expect(newPerson.differenceInSeconds).toEqual(315360000);
+    expect(newPerson.differenceInSeconds()).toEqual(315360000);
   });
 
 });
