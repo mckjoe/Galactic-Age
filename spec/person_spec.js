@@ -34,4 +34,8 @@ describe('Person', function() {
     expect(newPerson.marsAgeYears()).toEqual(17);
   });
 
+  it('should find a persons age in years on Jupiter', function() {
+    expect(newPerson.jupiterAgeYears()).toEqual();
+  });
+
 });
