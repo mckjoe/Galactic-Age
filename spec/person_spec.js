@@ -1,3 +1,5 @@
+import { Person } from './../src/personLogic.js';
+
 describe('Person', function() {
   let newPerson;
 
