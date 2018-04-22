@@ -30,4 +30,8 @@ describe('Person', function() {
     expect(newPerson.venusAgeYears()).toEqual(51);
   });
 
+  it('should find a persons age in years on Mars', function() {
+    expect(newPerson.marsAgeYears()).toEqual(17);
+  });
+
 });
