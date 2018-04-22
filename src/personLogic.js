@@ -25,5 +25,9 @@ class Person {
     return Math.floor(this.ageInYears / .62);
   }
 
+  marsAgeYears() {
+    return Math.floor(this.ageInYears / 1.86);
+  }
+
 }
 export { Person };
