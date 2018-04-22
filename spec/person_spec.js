@@ -17,4 +17,9 @@ describe('Person', function() {
   it('should convert a users age in years to age in seconds', function() {
     expect(newPerson.ageInSeconds()).toEqual(1009152000);
   });
+
+  it('should find the difference between two dates in seconds', function() {
+    expect(newPerson.differenceInSeconds).toEqual(315360000);
+  });
+
 });
