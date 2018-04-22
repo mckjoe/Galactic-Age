@@ -46,4 +46,8 @@ describe('Person', function() {
     expect(newPerson.mercuryLifeExpectency()).toEqual(187);
   });
 
+  it('should tell a user how long they have left to live on Venus', function() {
+    expect(newPerson.venusLifeExpectency()).toEqual(72);
+  });
+
 });
